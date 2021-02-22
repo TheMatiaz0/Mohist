@@ -467,7 +467,7 @@
  
 +   public boolean addEntity(Entity entityIn, CreatureSpawnEvent.SpawnReason reason) {
 +      //Mohist - Fix unknown entity class
-+      return this.func_72838_d(entityIn) ? super.addEntity(entityIn, reason) : false;
++      return this.addEntity0(entityIn, reason);
 +   }
 +
     public boolean func_217470_d(Entity p_217470_1_) {
